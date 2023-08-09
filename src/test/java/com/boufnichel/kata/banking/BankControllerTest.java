@@ -17,7 +17,7 @@ public class BankControllerTest {
     private BankController bankController;
 
     @Test
-    void should_return_200_when_amount_is_deposit_positive(){
+    void should_return_200_when_deposit_amount_is_positive(){
         ResponseEntity<String> responseEntity = bankController.deposit(5000d);
         assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK);
     }
