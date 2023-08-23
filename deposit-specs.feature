@@ -1,4 +1,4 @@
-Feature2: Deposit API
+Feature: Deposit API
 
 #Scenario 1 : The deposit api is called with an account identifier and an amount
 When the deposit api is called with an existing account identifier and an amount > 0

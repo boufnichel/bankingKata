@@ -1,4 +1,4 @@
-Feature1: Create Account API
+Feature: Create Account API
 
 
 
